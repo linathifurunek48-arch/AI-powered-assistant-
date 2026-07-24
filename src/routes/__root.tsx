@@ -77,25 +77,28 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "WorkMate AI — Workplace Productivity Assistant" },
+      { title: "Ixhosa Flavours — Authentic Xhosa & African Recipes" },
       {
         name: "description",
         content:
-          "AI-powered assistant that writes professional emails, plans your day, and answers workplace questions.",
+          "Discover traditional Xhosa and South African recipes — Umngqusho, Potjiekos, Pap & Chakalaka and more, made with heritage.",
       },
-      { property: "og:title", content: "WorkMate AI — Workplace Productivity Assistant" },
+      { property: "og:title", content: "Ixhosa Flavours — Authentic Xhosa & African Recipes" },
       {
         property: "og:description",
         content:
-          "Write emails, plan your day, and chat with an AI assistant built for the workplace.",
+          "Traditional Xhosa recipes, cooking tips and cultural stories that bring families together.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap",
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
