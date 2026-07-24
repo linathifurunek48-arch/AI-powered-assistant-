@@ -282,9 +282,9 @@ function IxhosaFlavours() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest">Get in touch</h4>
             <p className="mt-3 text-sm text-primary-foreground/80">
-              hello@ixhosaflavours.co.za
+              linathifurunek48@gmail.com
               <br />
-              Eastern Cape, South Africa
+              Cape Town, Philippi
             </p>
           </div>
         </div>
